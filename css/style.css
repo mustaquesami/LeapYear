@@ -1,0 +1,18 @@
+.num-content{
+    border-radius: 10px;
+    border: 2px dashed blue;
+    padding: 20px;
+}
+.year-content{
+    border-radius: 10px;
+    border: 2px dashed tomato;
+    padding: 20px;
+}
+.multiTable-content{
+    border-radius: 10px;
+    border: 2px dashed tomato;
+    padding: 20px;
+}
+.error{
+    color: red;
+}

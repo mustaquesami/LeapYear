@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Home Work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-md-12">
+                <div class="num-content my-3">
+                    <h2>Odd and Even Number Checker</h2>
+                <div class="mb-3">
+                    <label class="form-label">Enter a number to check odd or even number</label>
+                    <input type="number" class="form-control" id="num">
+                    <div id="numResult" class="form-text"></div>
+                </div>
+                <button onclick="checkNumber()" class="btn btn-primary">Check</button>
+                <button onclick="myResetNum()" class="btn btn-primary">Reset</button>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-12">
+                <div class="year-content my-3">
+                    <h2>Leap Year Checker</h2>
+                <div class="mb-3">
+                    <label class="form-label">Enter a year to check leap year</label>
+                    <input type="number" class="form-control" id="year">
+                    <div id="yearResult" class="form-text"></div>
+                </div>
+                <button onclick="isLeapYear()" class="btn btn-danger">Check</button>
+                <button onclick="myReset()" class="btn btn-danger">Reset</button>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-12">
+                <div class="multiTable-content my-3">
+                    <h2>Multiplication Tables</h2>
+                <div class="mb-3">
+                    <label class="form-label">Enter Multiplier</label>
+                    <input type="number" class="form-control" id="multiplier">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Enter Multiplicator</label>
+                    <input type="number" class="form-control" id="multiplicator">
+                    <div id="multiTableResult" class="form-text"></div>
+                </div>
+                <button onclick="multiTable()" class="btn btn-danger">Submit</button>
+                <button onclick="myResetMulti()" class="btn btn-danger">Reset</button>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-12">
+                <div class="num-content my-3">
+                    <h2>Grading System</h2>
+                    <div class="mb-3">
+                        <label class="form-label">Enter a Numerical Grade</label>
+                        <input type="number" class="form-control" id="mark">
+                        <div id="gradeResult" class="form-text"></div>
+                    </div>
+                    <button onclick="displayGrade()" class="btn btn-primary">Check</button>
+                    <button onclick="gradeReset()" class="btn btn-primary">Reset</button>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/index.js"></script>
+  </body>
+</html>
